@@ -1,0 +1,150 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul,
+a {
+  text-decoration: none;
+  list-style: none;
+  color: #000;
+}
+
+h2 {
+  font-size: 1.25em;
+}
+
+p {
+  font-size: 0.875em;
+}
+
+/* HEADER */
+
+.header__app {
+  height: 100px;
+  width: 100%;
+  background: #ff9900;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav__bar--list {
+  display: flex;
+  justify-content: center;
+}
+
+.nav__bar--items a {
+  font-size: 1.2em;
+  padding: 10px 10px 5px 10px;
+  border-bottom: 0px;
+  transition: 0.4s border-bottom;
+}
+
+.nav__bar--items a:hover {
+  border-bottom: 2px solid #f00975;
+}
+
+/* HEADER */
+
+/* MAIN */
+
+.main__app {
+  background: #ff9977;
+  width: 100%;
+  height: 600px;
+  padding: 20px 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* ASIDE */
+.box__article {
+  height: 520px;
+  margin: 0 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #993778;
+  border-radius: 5px;
+  padding: 20px 15px;
+  background: #eede52;
+}
+
+.box__article--info {
+  text-align: center;
+}
+
+.box__article--info h2 {
+  margin-bottom: 10px;
+}
+
+.box__article--description a {
+  color: #000;
+  transition: 0.3s color;
+}
+
+.box__article--description a:hover {
+  color: rgba(0, 0, 0, 0.4);
+}
+
+/* ASIDE */
+
+/* TOPICS */
+.main__topics {
+  height: 520px;
+  border: 1px solid #993778;
+  border-radius: 5px;
+  padding: 20px 15px;
+  background: #eede52;
+  margin: 0 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main__topics--capition {
+  font-style: italic;
+  text-align: center;
+  margin-top: 10px;
+}
+/* TOPICS */
+
+/* MAIN */
+
+/* IMAGE CLASS */
+
+.image {
+  width: 500px;
+  height: auto;
+  margin-top: 20px;
+}
+
+/* IMAGE CLASS */
+
+/* FOOTER */
+.footer__app {
+  background-color: #236678;
+  padding: 20px 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.box__social-media--items,
+.box__contact--items {
+  padding: 10px 0;
+}
+/* SOCIAL MEDIA */
+
+.box__social-media--items a {
+  color: #000;
+}
+.box__social-media--items a:hover {
+  color: rgba(0, 0, 0, 0.4);
+}
+/* SOCIAL MEDIA */
+
+/* FOOTER */
