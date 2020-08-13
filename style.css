@@ -12,11 +12,11 @@ a {
 }
 
 h2 {
-  font-size: 1.25em;
+  font-size: 1.5em;
 }
 
 p {
-  font-size: 0.875em;
+  font-size: 1em;
 }
 
 /* HEADER */
@@ -24,7 +24,7 @@ p {
 .header__app {
   height: 100px;
   width: 100%;
-  background: #ff9900;
+  background: #e4bc80;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -126,7 +126,7 @@ p {
 
 /* FOOTER */
 .footer__app {
-  background-color: #236678;
+  background-color: #69a2b3;
   padding: 20px 15px;
   display: flex;
   align-items: center;
@@ -136,6 +136,7 @@ p {
 .box__social-media--items,
 .box__contact--items {
   padding: 10px 0;
+  font-size: 1.25em;
 }
 /* SOCIAL MEDIA */
 
